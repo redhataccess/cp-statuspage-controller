@@ -11,6 +11,7 @@ var plugin_config = {
         '#MIM',
         '#cee',
         '#cee_mgrs',
+        '#gss-extended',
         '#gss-na',
         '#it-pnt'
     ]
