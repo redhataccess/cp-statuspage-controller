@@ -13,12 +13,14 @@ var plugin_config = {
         '#cee_mgrs',
         '#gss-extended',
         '#gss-na',
-        '#it-pnt'
-    ]
+        '#it-pnt',
+    ],
 };
 
 var spc = new StatuspageController();
 
-spc.addPlugin(new IrcPlugin(plugin_config));
+var ircPlugin = new IrcPlugin(plugin_config);
+
+spc.addPlugin(ircPlugin);
 
 spc.start();

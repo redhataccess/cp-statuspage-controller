@@ -1,6 +1,6 @@
 {
   "name": "cp-statuspage-controller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Customer Portal Status Page Controller Instance",
   "main": "server.js",
   "scripts": {
@@ -15,9 +15,10 @@
   "bugs": {
     "url": "https://github.com/redhataccess/cp-statuspage-controller/issues"
   },
+  "license": "MIT",
   "homepage": "https://github.com/redhataccess/cp-statuspage-controller#readme",
   "dependencies": {
     "statuspage-controller": "^1.1.8",
-    "statuspage-controller-irc": "^1.0.4"
+    "statuspage-controller-irc": "^1.1.1"
   }
 }
