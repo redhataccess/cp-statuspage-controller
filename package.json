@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "bash start.sh; node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
   "license": "MIT",
   "homepage": "https://github.com/redhataccess/cp-statuspage-controller#readme",
   "dependencies": {
-    "statuspage-controller": "^1.1.8",
+    "newrelic": "^1.40.0",
+    "statuspage-controller": "1.1.8",
     "statuspage-controller-irc": "^1.1.1"
   }
 }
