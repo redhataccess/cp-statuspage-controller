@@ -1,3 +1,4 @@
+require('newrelic');
 var StatuspageController = require('statuspage-controller');
 var IrcPlugin = require('statuspage-controller-irc');
 
