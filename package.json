@@ -1,6 +1,6 @@
 {
   "name": "cp-statuspage-controller",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Customer Portal Status Page Controller Instance",
   "main": "server.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/redhataccess/cp-statuspage-controller#readme",
   "dependencies": {
     "newrelic": "^1.40.0",
-    "statuspage-controller": "^1.2.4",
+    "statuspage-controller": "^1.2.5",
     "statuspage-controller-irc": "^1.1.1"
   }
 }
