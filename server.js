@@ -4,10 +4,6 @@ var IrcPlugin = require('statuspage-controller-irc');
 
 var config = {
     HTPASSWD_FILE: 'data/users.htpasswd',
-    TLS: {
-        key:  "data/selfsigned.key",
-        cert: "data/selfsigned.crt",
-    }
 };
 
 var plugin_config = {
