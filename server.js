@@ -2,6 +2,14 @@ require('newrelic');
 var StatuspageController = require('statuspage-controller');
 var IrcPlugin = require('statuspage-controller-irc');
 
+var config = {
+    HTPASSWD_FILE: 'data/users.htpasswd',
+    TLS: {
+        key:  "data/selfsigned.key",
+        cert: "data/selfsigned.crt",
+    }
+};
+
 var plugin_config = {
     host: 'irc.devel.redhat.com',
     nick: 'Statuspage',
@@ -18,7 +26,7 @@ var plugin_config = {
     ],
 };
 
-var spc = new StatuspageController();
+var spc = new StatuspageController(config);
 
 var ircPlugin = new IrcPlugin(plugin_config);
 
