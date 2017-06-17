@@ -1,10 +1,9 @@
 {
   "name": "cp-statuspage-controller",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Customer Portal Status Page Controller Instance",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "bash start.sh; node server.js"
   },
   "repository": {
@@ -19,7 +18,7 @@
   "homepage": "https://github.com/redhataccess/cp-statuspage-controller#readme",
   "dependencies": {
     "newrelic": "^1.40.0",
-    "statuspage-controller": "^1.2.6",
+    "statuspage-controller": "^1.2.8",
     "statuspage-controller-irc": "^1.1.1"
   }
 }
