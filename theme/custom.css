@@ -1,0 +1,62 @@
+@import url("https://overpass-30e2.kxcdn.com/overpass.css");
+
+body {
+  font-family: "Overpass", "proxima-nova", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+  font-weight: 300 !important;
+}
+
+.flat-button,
+.masthead .updates-dropdown-container .show-updates-dropdown,
+.layout-content.manage .content-area.full-customize .preview-container .updating-message,
+.layout-content.status.status-index .page-status { -webkit-border-radius: 0 !important; -moz-border-radius: 0 !important; border-radius: 0 !important; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; font-spacing: 0; }
+
+.masthead .updates-dropdown-container .show-updates-dropdown { background-color: #c00; }
+
+.layout-content.status.status-index .components-section .components-container.one-column .component-container:last-child,
+.layout-content.status.status-index .components-section .components-container.one-column .component-container:first-child {
+  -webkit-border-radius: 0 !important; -moz-border-radius: 0 !important; border-radius: 0 !important;
+}
+
+.layout-content.status .masthead-container.premium {
+  max-width: 100% !important;
+  background-image: url("https://access.redhat.com/chrome_themes/nimbus/img/nimbus-hero_support.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.layout-content.status .masthead,
+.footer .wrap {
+	  	margin: 0 auto; 
+  max-width: 850px;
+}
+
+.footer { padding: 15px 30px; background: #1a1a1a; color: #fff; }
+.footer small { float: right; font-size: 12px; vertical-align: middle; font-weight: 300; line-height: 40px; }
+.footer img { display: inline-block; vertical-align: middle; }
+
+.layout-content.status .masthead-container.premium .masthead .text-container {
+ 	 background: none !important;
+}
+
+/*.page-name {
+ 	 position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0; 
+}*/
+
+.layout-content.status .masthead-container .masthead,
+.layout-content.status.status-index .page-status,
+.layout-content.status.status-index .text-section {
+  margin-bottom: 30px; 
+}
+
+.layout-content.status .masthead-container.premium .masthead .images-container {
+ 	 height: 200px;
+  max-height: 200px;
+}
