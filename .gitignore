@@ -60,3 +60,5 @@ typings/
 .idea
 
 newrelic.js
+
+package-lock.json
