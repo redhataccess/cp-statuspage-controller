@@ -18,6 +18,7 @@ var plugin_config = {
         '#gss-extended',
         '#gss-na',
         '#it-pnt',
+        '#sbr-insights',
     ],
 };
 
