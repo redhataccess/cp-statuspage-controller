@@ -1,11 +1,7 @@
-var StatuspageController = require('statuspage-controller');
-var IrcPlugin = require('statuspage-controller-irc');
+let StatusPageController = require('statuspage-controller');
+let IrcPlugin = require('statuspage-controller-irc');
 
-var config = {
-    HTPASSWD_FILE: 'data/users.htpasswd',
-};
-
-var plugin_config = {
+let plugin_config = {
     host: 'irc.devel.redhat.com',
     nick: 'Statuspage',
     prefix: '[status.redhat.com]',
@@ -22,9 +18,9 @@ var plugin_config = {
     ],
 };
 
-var spc = new StatuspageController(config);
+let spc = new StatusPageController();
 
-var ircPlugin = new IrcPlugin(plugin_config);
+let ircPlugin = new IrcPlugin(plugin_config);
 
 spc.addPlugin(ircPlugin);
 
