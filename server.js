@@ -7,13 +7,10 @@ let plugin_config = {
     prefix: '[status.redhat.com]',
     channels: [
         '#customer-platform',
-        '#iso',
         '#MIM',
-        '#cee',
         '#cee_mgrs',
         '#gss-extended',
         '#gss-na',
-        '#it-pnt',
         '#sbr-insights',
     ],
 };
