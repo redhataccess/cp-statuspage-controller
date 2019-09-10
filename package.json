@@ -1,6 +1,6 @@
 {
   "name": "cp-statuspage-controller",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Customer Portal Status Page Controller Instance",
   "main": "server.js",
   "scripts": {
