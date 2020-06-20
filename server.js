@@ -12,7 +12,7 @@ let plugin_config = {
         '#gss-extended',
         '#gss-na',
         '#sbr-insights',
-	    '#sbr-sysmgmt-emea',
+        '#sbr-sysmgmt-emea',
     ],
 };
 
